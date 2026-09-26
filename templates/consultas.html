@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <title>ADM. RESERVAS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body class="container mt-5">
+    <div class="alert alert-info display-4 text-center">Empleados</div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Consulta </th>
+                <th>Descripción </th>
+                <th>ejecutar </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mostrar todos los empleados <br>
+                    Mostrar cantidad total de empleados
+                </td>
+                <td> empleados = Empleado.objects.all() <br>
+                     cantidad=Empleado.objects.all().count()
+                </td>
+                <td> 
+                    <a class="btn btn-danger btn-small" href="consultar/1">
+                       Revisar
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
