@@ -1,1 +1,1 @@
-Ejemplo de proyecto con Django para probar Github y para poder realizar prácticas.
+Ejemplo de proyecto con Django para probar Github y realizar prácticas.
